@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 1 - Xây dựng ứng dụng tìm ảnh gif</title>
+    <style>
+        .button-container {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .button-container button {
+            margin-left: 10px;
+        }
+
+        .gif-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .gif-item {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Bài tập 1 - Xây dựng ứng dụng tìm ảnh gif</h1>
+    <div class="button-container">
+        <input type="text" id="search-input" placeholder="Nhập từ khóa">
+        <button id="search-button">Tìm kiếm</button>
+        <button id="delete-button" class="delete-button">Xóa tất cả</button>
+    </div>
+    <div class="gif-container" id="gif-container"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
