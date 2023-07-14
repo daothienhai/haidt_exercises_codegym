@@ -7,6 +7,8 @@ import Counter from "./components/thuchanh1/Counter";
 import Selector from "./components/thuchanh2/Selector";
 import Car from "./components/bai1/Car";
 import Timer from "./components/bai2/Timer";
+import MyClock from "./components/thuchanh3/MyClock";
+import Bai3 from "./components/bai3/Bai3";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,6 +18,8 @@ root.render(
     {/* <Selector /> */}
     {/* <Car /> */}
     {/* <Timer /> */}
+    {/* <MyClock /> */}
+    <Bai3 />
   </React.StrictMode>
 );
 
