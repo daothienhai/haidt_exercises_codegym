@@ -3,29 +3,25 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import Thuchanh1 from "./components/thuchanh1/Thuchanh1";
-import Thuchanh2 from "./components/thuchanh2/Thuchanh2";
-import Thuchanh3 from "./components/thuchanh3/Thuchanh3";
-import Thuchanh4 from "./components/thuchanh4/Thuchanh4";
+import FormLogin from "./components/thuchanh1/FormLogin";
+import ValidateFormRegister from "./components/thuchanh2/ValidateFormRegister";
+import ValidateFormLogin from "./components/thuchanh3/ValidateFormLogin";
+import FormikValiFormLogin from "./components/thuchanh4/FormikValiFormLogin";
 import Bai1 from "./components/bai1/Bai1";
 import Bai2 from "./components/bai2/Bai2";
 import Bai3 from "./components/bai3/Bai3";
-import Bai4 from "./components/bai4/Bai4";
-import Bai5 from "./components/bai5/Bai5";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    {/* <Thuchanh1 /> */}
-    {/* <Thuchanh2 /> */}
-    {/* <Thuchanh3 /> */}
-    {/* <Thuchanh4 /> */}
+    {/* <FormLogin /> */}
+    {/* <ValidateFormRegister /> */}
+    {/* <ValidateFormLogin /> */}
+    {/* <FormikValiFormLogin /> */}
     {/* <Bai1 /> */}
     {/* <Bai2 /> */}
-    {/* <Bai3 /> */}
-    {/* <Bai4 /> */}
-    <Bai5 />
+    <Bai3 />
   </React.StrictMode>
 );
 
