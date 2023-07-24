@@ -10,6 +10,7 @@ import FormikValiFormLogin from "./components/thuchanh4/FormikValiFormLogin";
 import Bai1 from "./components/bai1/Bai1";
 import Bai2 from "./components/bai2/Bai2";
 import Bai3 from "./components/bai3/Bai3";
+import Bai4 from "./components/bai4/Bai4";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -21,7 +22,8 @@ root.render(
     {/* <FormikValiFormLogin /> */}
     {/* <Bai1 /> */}
     {/* <Bai2 /> */}
-    <Bai3 />
+    {/* <Bai3 /> */}
+    <Bai4 />
   </React.StrictMode>
 );
 
